@@ -377,7 +377,7 @@ def get_plantilles():
 <td>Sit amet</td>
 </tr>
 </tbody>
-</table>"""
+</table><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -575,7 +575,7 @@ Morbi dictum. Vestibulum adipiscing pulvinar quam. In aliquam rhoncus sem. In mi
 <div class="tab-pane" id="tercera">Contingut de la tercera pestanya...</div>
 <div class="tab-pane" id="quarta">Contingut <br /><br /><br /><br /><br />de la quarta pestanya...</div>
 </div>
-</div>"""
+</div><p>&nbsp;</p>"""
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Acordió"
@@ -619,34 +619,34 @@ Morbi dictum. Vestibulum adipiscing pulvinar quam. In aliquam rhoncus sem. In mi
     titol = u"Text amb video"
     resum = u"Per inserir-hi el vostre vídeo heu d'accedir al codi html de la pàgina i substituir l'enllaç al vídeo."
     cos = u"""<div>Donec in accumsan ex, eget facilisis risus. In id molestie erat. Sed congue ipsum ac consectetur posuere. Vestibulum posuere metus iaculis iaculis suscipit. Praesent pharetra massa eu ullamcorper blandit. Suspendisse consectetur porttitor eros, sed finibus mi posuere a. Donec quis massa eu enim maximus porttitor.</div>
-<p> </p>
+<p>&nbsp;</p>
 <div><video width="576" height="324" style="" poster="https://tv.upc.edu/contenidos/upc-la-universitat-enginyeria-arquitectura-ciencies-i-tecnologia/miniature_image" controls="controls"><source src="http://tv.upc.es/vod/Video_Grau_UPC_Cast-higher.mp4" type="video/mp4" /></video></div>
-<p> </p>
-<div>Vestibulum laoreet quis erat sed condimentum. Quisque faucibus et risus a gravida. Aliquam diam velit, mattis convallis eleifend sed, iaculis eget tellus. Donec et quam vel libero interdum mollis. Aenean nulla felis, vehicula eget metus eu, cursus scelerisque felis. Duis sem magna, bibendum eu sodales et, dapibus ac mi. Sed ut erat a tortor dictum fringilla sed blandit tortor.</div>"""
+<p>&nbsp;</p>
+<div>Vestibulum laoreet quis erat sed condimentum. Quisque faucibus et risus a gravida. Aliquam diam velit, mattis convallis eleifend sed, iaculis eget tellus. Donec et quam vel libero interdum mollis. Aenean nulla felis, vehicula eget metus eu, cursus scelerisque felis. Duis sem magna, bibendum eu sodales et, dapibus ac mi. Sed ut erat a tortor dictum fringilla sed blandit tortor.</div><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Botó ample blau"
     resum = u"Botó standard blau que ocupa el 100% de l'ample del contenidor"
-    cos = u"""<a class="btn btn-block btn-large btn-primary" href="#">Lorem ipsum</a>"""
+    cos = u"""<a class="btn btn-block btn-large btn-primary" href="#">Lorem ipsum</a><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Botó ample gris"
     resum = u"Botó standard gris que ocupa el 100% de l'ample del contenidor"
-    cos = u"""<a class="btn btn-block btn-large" href="#">Lorem ipsum</a>"""
+    cos = u"""<a class="btn btn-block btn-large" href="#">Lorem ipsum</a><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Botó blau"
     resum = u"Botó standard blau"
-    cos = u"""<a class="btn btn-large btn-primary" href="#">Button</a>"""
+    cos = u"""<a class="btn btn-large btn-primary" href="#">Button</a><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Botó"
     resum = u"Botó standard gris"
-    cos = u"""<a class="btn btn-large" href="#">Button</a>"""
+    cos = u"""<a class="btn btn-large" href="#">Button</a><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -660,7 +660,7 @@ Morbi dictum. Vestibulum adipiscing pulvinar quam. In aliquam rhoncus sem. In mi
         <p>Descripció</p>
     </div>
   </div>
-</div>"""
+</div><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -674,7 +674,7 @@ Morbi dictum. Vestibulum adipiscing pulvinar quam. In aliquam rhoncus sem. In mi
         <p>Descripció</p>
     </div>
   </div>
-</div>"""
+</div><p>&nbsp;</p>"""
 
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
